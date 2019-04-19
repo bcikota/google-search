@@ -3,8 +3,6 @@
     grid-template-rows: 120px 1700px 100px;
     font-family: sans-serif;
     font-size: 0.8em;
-    width: 1500px !important;
-    margin: 0 auto !important;
 }
 
 a{text-decoration: none;}
