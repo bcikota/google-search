@@ -3,8 +3,7 @@
     grid-template-rows: 120px auto 100px;
     font-family: sans-serif;
     font-size: 13px;
-    min-width: 1000px;
-    max-width: 1600px;
+    width: 1580px;
     margin: 0 auto;
 }
 
@@ -14,7 +13,7 @@ a{text-decoration: none;}
 /* header */
 header{
     display: grid;
-    grid-template: 1fr 1fr /  minmax(960px, 1fr) 120px; 
+    grid-template: 1fr 1fr /  1fr 120px; 
 }
 
 .box1{
@@ -56,8 +55,6 @@ input{
     left: 568px;
 }
 
-.b1{}
-
 .apps{
     position: relative;
     top: 35px;
@@ -95,7 +92,6 @@ input{
 /* section */
 section{
     display: grid;
-    grid-template-rows: repeat(16, auto);
     margin-left: 170px;
     width: 570px;
     line-height: 1.4em;
@@ -106,7 +102,6 @@ section{
     position: relative;
     top: 10px;
     display: inline;
-    height: 20px;
 }
 
 .result{
@@ -243,5 +238,5 @@ footer div{
 
 footer div:last-of-type a{
     padding-right: 10px;
-    
 }
+
